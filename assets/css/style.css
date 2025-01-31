@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #CE091B;
+}
+
+/* A parte do navbar logo nike */
+
+nav {
+  width: 100vw;
+  height: 80px;
+  padding: 30px 4%;
+
+}
+
+nav .logo img {
+  width: auto;
+  height: auto;
+}
+
+/* Fim navbar logo nike */
+
+
+/* Div global */
+
+.global {
+    width: 100%;
+    height:519px;
+    border: 3px solid blue;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* div imagem */
+
+
+
+.global .imagem{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 450px;
+  border: 3px solid white;
+}
+
+.global .imagem img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+
+/* div Login */
+
+ .global .login{
+  width: 25%;
+  height: 450px;
+  border: 3px solid rgb(255, 255, 255);
+  background-color: white;
+ }
