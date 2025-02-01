@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
 
 * {
   margin: 0;
@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color:#CC041A;
+  background-color: #cc041a;
 }
 
 /* A parte do navbar logo nike */
@@ -15,96 +15,81 @@ nav {
   width: 100vw;
   height: 80px;
   padding: 30px 4%;
-
 }
 
 nav .logo img {
   width: auto;
   height: auto;
-
 }
 
 /* Fim navbar logo nike */
 
-
 /* Div global */
 
 .global {
-    width: 100%;
-    height:519px;
-    display: flex;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-  
+  width: 100%;
+  height: 519px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
 }
-
-
-
 
 /* div imagem */
 
-
-.imagem{
+.imagem {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 50%;
   border-radius: 30px 0px 0px 30px;
   height: 450px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
- 
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
- .imagem img{
+.imagem img {
   width: 100%;
   height: 100%;
   border-radius: 30px 0px 0px 30px;
 }
 
-
-
-
-
 /* div Login */
 
- .login{
+.login {
   padding: 20px;
   width: 25%;
   height: 450px;
   background-color: white;
   border-radius: 0px 30px 30px 0px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
- }
-
-
-
- .login .logo-login{
+.login .logo-login {
   width: 75px;
   height: 50px;
   margin: 10px auto;
- }
+}
 
- .login .logo-login img{
+.login .logo-login img {
   width: auto;
   height: auto;
- 
- }
+}
 
- .login .title h2{
+.login .title h2 {
   width: 75px;
   height: 30px;
   margin: 10px auto;
   font-family: "Montserrat", sans-serif;
-font-weight: 700;
+  font-weight: 800;
   text-align: center;
-
- }
-
+}
 
 /* Estilizando campos de entrada */
 
-form{
+form {
   margin-top: 20px;
 }
 .input-group {
@@ -127,7 +112,6 @@ input {
   font-size: 14px;
   margin-bottom: 10px;
   width: 100%;
-  
 }
 
 .options label {
@@ -139,8 +123,7 @@ input {
 .options a {
   color: #505050;
   text-decoration: none;
-    font-weight: 700;
- 
+  font-weight: 700;
 }
 
 .options a:hover {
@@ -172,29 +155,26 @@ p {
   font-size: 14px;
   margin-top: 15px;
   text-align: center;
- 
 }
 
 p a {
   color: red;
   font-weight: bold;
   text-decoration: none;
-
 }
 
 p a:hover {
   text-decoration: underline;
 }
 
-
-form .conta{
+form .conta {
   align-items: center;
   justify-content: space-around;
   display: flex;
   margin-top: 10px;
 }
 
-form .conta img{
+form .conta img {
   width: 30px;
   height: 30px;
 }
